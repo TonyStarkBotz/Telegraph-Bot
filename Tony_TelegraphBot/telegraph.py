@@ -61,7 +61,7 @@ async def getmedia(bot, update):
             InlineKeyboardButton('More Help', callback_data='help')
             ]]))
         
-@Rkn_TelegraphBot.on_message(filters.text & filters.private)
+@Tony_TelegraphBot.on_message(filters.text & filters.private)
 async def text_handler(bot, update):
     """Creating instant view link
        by creating post in telegra.ph 
